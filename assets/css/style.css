@@ -12,6 +12,10 @@ header {
     background-color: aqua;
 
 }
+
+hr {
+    margin: 20px;
+}
 #about {
     color:#4aaaa5;
     margin-left: 30px;
@@ -20,10 +24,16 @@ header {
 
 #bio-pic {
     float: left;
+    padding: 20px;
 }
 
 .clearfix {
     overflow: auto;
+}
+
+.paragraphs {
+    margin-left: 30px;
+    padding: 20px;
 }
 
 div {
