@@ -5,7 +5,7 @@
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p, div {
+p, div, {
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 .div-header {
@@ -172,4 +172,37 @@ div {
     border-top-color: #4aaaa5;
     border-top-width: 10px;
     padding-top: 2%;*/
+}
+
+input [type=text], select, textarea {
+    width: 90%; /*originally 100%, but needs to have padding on sides???*/
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    /* i added margin right and left to try to center???*/
+    margin-right: auto;
+    margin-left: auto;
+}
+input [type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+input [type=submit]:hover {
+    background-color: #666666;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    width: 90%;
+}
+label {
+    font-size: 20px;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
