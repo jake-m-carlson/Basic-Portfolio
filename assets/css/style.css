@@ -15,6 +15,35 @@
     margin-right: auto;
 }
 
+.my-name {
+    width: 33%;
+    /*
+    if these 3 class' and clear fix are in action for floats and margins, it eliminates the background between header and content.
+    Would i be able to put all of this in place for classes, and for h1 "Jake Carlson" put in bottom margin to make that space appear???*/ 
+    
+    /*float: left;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.blank-space {
+    width: 33%;
+    /*float: left;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+.links {
+    width: 33%;
+    /*float: left;
+    margin-left: auto;
+    margin-right: auto;*/
+}
+
+/*.clearfix {
+    overflow: auto;
+}*/
+
 body {
     /*width: 960px;*/
     background-image: url(../images/green-fibers.png);
@@ -69,6 +98,7 @@ ul {
     padding-top: 2%;
     width: 95%;
     margin: 0 auto;
+    float: left;
 
 }
 
