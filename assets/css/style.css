@@ -110,7 +110,29 @@ ul {
     margin: 0 auto;
     float: left;
     padding-left: 3%;
+    padding-bottom: 2%;
+}
 
+#portfolio {
+    color: #4aaaa5;
+    /* margin-left: 30px; */
+    padding-top: 2%;
+    width: 95%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 3%;
+    padding-bottom: 2%;
+}
+
+#contact {
+    color: #4aaaa5;
+    /* margin-left: 30px; */
+    padding-top: 2%;
+    width: 95%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 3%;
+    padding-bottom: 2%;
 }
 
 #bio-pic {
