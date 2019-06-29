@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p, div {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
 .div-header {
     width: 100%;
     margin: auto 0;
@@ -117,6 +124,7 @@ ul {
 }
 
 #paragraphs {
+    line-height: 20px;
 }
 
 div {
@@ -126,4 +134,20 @@ div {
 .portfolio {
     border-left: solid 1px #000000;
     border-right: solid 1px #000000;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top: 8px solid #4aaaa5;
+    padding-top: 2%;
+    /*
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    padding-top: 2%;*/
 }
