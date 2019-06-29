@@ -6,8 +6,11 @@
     margin: auto 0;
     background-color: #ffffff;
 }
-.jake-carlson {
+#jake-carlson {
     margin-top: 0%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 5%;
 }
 .sub-div-header {
     width: 960px;
