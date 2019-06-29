@@ -9,6 +9,12 @@
 .jake-carlson {
     margin-top: 0%;
 }
+.sub-div-header {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
     /*width: 960px;*/
     background-image: url(../images/green-fibers.png);
